@@ -1,0 +1,26 @@
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    /* Same as above */
+    font: 400 normal verdana, Geneva, tahoma, sans-serif; 
+
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+
+    border: 5px red solid;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+}
