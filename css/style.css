@@ -88,6 +88,10 @@ a:visited{
     color: #fff;
 }
 
+.clr{
+    clear: both;
+}
+
 .categories{
     padding: 10px;
     padding-left: 25px;
@@ -133,4 +137,37 @@ a:visited{
     padding: 10px;
     border-radius: 10px;
     box-sizing: border-box;
+}
+
+#main-bar{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.p-box h1{
+    position: absolute;
+    left: 200px;
+    top: 100px;
 }
