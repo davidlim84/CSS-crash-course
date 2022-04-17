@@ -164,10 +164,41 @@ a:visited{
     height: 500px;
     border: 1px solid black;
     position: relative;
+    background-image: url(../images/bgimage.jpg);
+    background-position:center center;
+    background-repeat:no-repeat;
 }
 
 .p-box h1{
     position: absolute;
     left: 200px;
     top: 100px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:first-child{
+    background: red;
+
+}
+.my-list li:last-child{
+    background: blue;
+    
+}
+.my-list li:nth-child(5){
+    background: yellow;
+    
+}
+.my-list li:nth-child(even){
+    background: grey;
+    
 }
